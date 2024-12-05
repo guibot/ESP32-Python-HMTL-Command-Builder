@@ -11,8 +11,13 @@ This repository contains a Python script designed to simplify the development of
 ## How It Works
 The script takes a variable name as input and generates the following:
 
+In this case, we are using the word "test" as a variable to be adapted to the following commands.
+
+variavel = "test"
+
 ### Parameter Definition
 ```cpp
+
 const char* PARAM_EXAMPLE = "example";
 
 <form action="/setExample">
