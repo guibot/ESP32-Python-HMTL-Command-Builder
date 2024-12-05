@@ -13,7 +13,7 @@ The script takes a variable name as input and generates the following:
 
 In this case, we are using the word "test" as a variable to be adapted to the following commands.
 
-variavel = "test"
+variavel = "example"
 
 ### Parameter Definition
 ```cpp
