@@ -19,7 +19,7 @@ On Terminal, just call the script and type the variable name:
 
 python .\HTMLCommandBuilder.py example
 
-### Parameter Definition
+### Generated Code, just copy, past, adapt
 ```cpp
 
 const char* PARAM_EXAMPLE = "example";
