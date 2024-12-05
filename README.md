@@ -1,6 +1,7 @@
 # Dynamic Code Generator for ESP32 Projects
 
-This repository contains a Python script designed to simplify the development of ESP32 projects by dynamically generating code for common structures such as parameter definitions, HTML forms, and HTTP server handlers.
+This repository contains a Python script designed to simplify the development of ESP32 IOT projects by dynamically generating HTML code.
+This generated code can be useful for common structures such as parameter definitions and HTML forms.
 
 ## Features
 - Automatically generate **parameter constants** for use in C++.
