@@ -15,6 +15,10 @@ In this case, we are using the word "test" as a variable to be adapted to the fo
 
 variavel = "example"
 
+On Terminal, just call the script and type the variable name:
+
+python .\HTMLCommandBuilder.py example
+
 ### Parameter Definition
 ```cpp
 
