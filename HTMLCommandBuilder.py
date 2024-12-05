@@ -19,16 +19,16 @@ def gerar_comando(nome_variavel):
     
     bloco_html_replace = f"""
     // Substituição no conteúdo HTML
-    htmlContent.replace("%{nome_variavel.upper()}%", String({nome_variavel}_var));
+    htmlContent.replace("%{nome_variavel.upper()}%", String({nome_variavel}));
     """
     
     bloco_server_handler = f"""
     // Manipulador do servidor
     server.on("/set{nome_variavel.capitalize()}", HTTP_GET, [](AsyncWebServerRequest* request) {{
         if (request->hasParam("{nome_variavel}")) {{
-            {nome_variavel}_var = request->getParam("{nome_variavel}")->value().toInt();
-            Serial.println("{nome_variavel.capitalize()} Value: " + String({nome_variavel}_var));
-            preferences.putInt({nome_parametro}, {nome_variavel}_var);
+            {nome_variavel} = request->getParam("{nome_variavel}")->value().toInt();
+            Serial.println("{nome_variavel.capitalize()} Value: " + String({nome_variavel}));
+            preferences.putInt({nome_parametro}, {nome_variavel});
         }}
         request->redirect("/");
     }});
