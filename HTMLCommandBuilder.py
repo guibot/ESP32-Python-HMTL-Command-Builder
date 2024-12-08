@@ -35,7 +35,7 @@ def gerar_comando(nome_variavel):
     """
     
     bloco_condicional = f"""
-    // Atualização da variável
+    // Atualização da variável através da Serial Console
     if (label == "{nome_variavel}") {{ // Para a variável {nome_variavel}
         int {nome_variavel} = valorStr.toInt();
         {nome_variavel} = valor;
