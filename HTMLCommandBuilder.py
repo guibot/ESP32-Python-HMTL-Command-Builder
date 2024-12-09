@@ -11,7 +11,7 @@ def gerar_comando(nome_variavel):
     bloco_html_form = f"""
     // Formulário HTML
     <form action="/set{nome_variavel.capitalize()}">
-        <label for="{nome_variavel}">{nome_variavel.capitalize()} value:</label>
+        <label for="{nome_variavel}">{nome_variavel.capitalize()} :</label>
         <input type="number" id="{nome_variavel}" name="{nome_variavel}" value="%{nome_variavel.upper()}%">
         <input type="submit" value="Save">
     </form>
